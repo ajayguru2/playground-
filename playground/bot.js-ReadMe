@@ -1,0 +1,20 @@
+guidelines to run bot.js
+
+running flag features :
+
+1 node bot.js --tweet="tweet text" 
+#this tweets the text to my account 
+
+2 node bot.js --search="key"
+#this searches and fetches 3(default) tweets with the given keyword
+
+3 node bot.js --slug="trait"
+#gets user with the mentioned traits 
+
+
+packages used :
+1 yargs 
+2 twit 
+
+api used:
+twitter api
