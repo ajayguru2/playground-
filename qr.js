@@ -14,4 +14,6 @@ if(args.code){
 
   var svg_string = qr.imageSync(`${args.code}`, { type: 'svg' });
   console.log(`The given svg code is: ${svg_string}`);
+
+  fs.writeFileSync('svg-code',svg_string);
 }
