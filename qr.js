@@ -2,6 +2,10 @@ var yargs = require('yargs');
 var qr = require('qr-image');
 var fs = require('fs');
 
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+
 
 
 var args = yargs.argv;
